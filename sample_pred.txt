@@ -1,0 +1,54 @@
+{
+  "data": {
+    "gender": 1,
+    "SeniorCitizen": 0,
+    "Partner": 1,
+    "Dependents": 0,
+    "tenure": 12,
+    "PhoneService": 1,
+    "MultipleLines": 0,
+    "InternetService": 1,
+    "OnlineSecurity": 0,
+    "OnlineBackup": 1,
+    "DeviceProtection": 1,
+    "TechSupport": 0,
+    "StreamingTV": 0,
+    "StreamingMovies": 1,
+    "Contract": 0,
+    "PaperlessBilling": 1,
+    "PaymentMethod": 2,
+    "MonthlyCharges": 75.5,
+    "TotalCharges": 900.0
+  }
+}
+predict Customer will not churn = 0
+
+
+
+
+
+
+{
+  "data": {
+  "gender": 1,
+  "SeniorCitizen": 1,
+  "Partner": 0,
+  "Dependents": 0,
+  "tenure": 1,
+  "PhoneService": 1,
+  "MultipleLines": 0,
+  "InternetService": 1,
+  "OnlineSecurity": 0,
+  "OnlineBackup": 0,
+  "DeviceProtection": 0,
+  "TechSupport": 0,
+  "StreamingTV": 0,
+  "StreamingMovies": 0,
+  "Contract": 0,
+  "PaperlessBilling": 1,
+  "PaymentMethod": 2,
+  "MonthlyCharges": 90.5,
+  "TotalCharges": 90.5
+}
+}
+predict Customer will churn =1
